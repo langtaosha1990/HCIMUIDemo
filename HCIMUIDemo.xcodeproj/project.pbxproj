@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7122B0C36E479DE7538412 /* libPods-HCIMUIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3250131F86F042CF0C1FD9FA /* libPods-HCIMUIDemo.a */; };
+		F357F30023B76D2F0030E78E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F2FF23B76D2F0030E78E /* AppDelegate.m */; };
+		F357F30323B76D2F0030E78E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F30223B76D2F0030E78E /* SceneDelegate.m */; };
+		F357F30623B76D2F0030E78E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F30523B76D2F0030E78E /* ViewController.m */; };
+		F357F30923B76D2F0030E78E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F357F30723B76D2F0030E78E /* Main.storyboard */; };
+		F357F30B23B76D310030E78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F357F30A23B76D310030E78E /* Assets.xcassets */; };
+		F357F30E23B76D310030E78E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F357F30C23B76D310030E78E /* LaunchScreen.storyboard */; };
+		F357F31123B76D310030E78E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F31023B76D310030E78E /* main.m */; };
+		F357F31B23B773BC0030E78E /* HCIMRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F31A23B773BC0030E78E /* HCIMRefreshViewController.m */; };
+		F357F32023B779860030E78E /* HCIMChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F31F23B779860030E78E /* HCIMChatViewController.m */; };
+		F357F32623B7A12F0030E78E /* HCIMMessageTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F32523B7A12F0030E78E /* HCIMMessageTimeCell.m */; };
+		F357F32A23B7AD1D0030E78E /* HCIMMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F32923B7AD1D0030E78E /* HCIMMessageCell.m */; };
+		F357F32D23B7B1550030E78E /* HCIMMessageStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F32C23B7B1550030E78E /* HCIMMessageStatusView.m */; };
+		F357F33423B85EA40030E78E /* HCIMMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F33323B85EA40030E78E /* HCIMMessageModel.m */; };
+		F357F33D23B8749A0030E78E /* HCIMMsgTextBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F33B23B8749A0030E78E /* HCIMMsgTextBubbleView.m */; };
+		F357F33E23B8749A0030E78E /* HCIMMessageBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F33C23B8749A0030E78E /* HCIMMessageBubbleView.m */; };
+		F357F34123B874BE0030E78E /* HCIMMsgImageBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F357F34023B874BE0030E78E /* HCIMMsgImageBubbleView.m */; };
+		F357F34523B8DA3F0030E78E /* WeChat4149af4bd45876574cde8ccb7e9eaed2.png in Resources */ = {isa = PBXBuildFile; fileRef = F357F34423B8DA3F0030E78E /* WeChat4149af4bd45876574cde8ccb7e9eaed2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3250131F86F042CF0C1FD9FA /* libPods-HCIMUIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCIMUIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0286EBF0CD40FF8791B025 /* Pods-HCIMUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCIMUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCIMUIDemo/Pods-HCIMUIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EFFAB18BE41DE8D8D0595113 /* Pods-HCIMUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCIMUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCIMUIDemo/Pods-HCIMUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F357F2FB23B76D2F0030E78E /* HCIMUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCIMUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F357F2FE23B76D2F0030E78E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F357F2FF23B76D2F0030E78E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F357F30123B76D2F0030E78E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F357F30223B76D2F0030E78E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F357F30423B76D2F0030E78E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F357F30523B76D2F0030E78E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F357F30823B76D2F0030E78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F357F30A23B76D310030E78E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F357F30D23B76D310030E78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F357F30F23B76D310030E78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F357F31023B76D310030E78E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F357F31923B773BC0030E78E /* HCIMRefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMRefreshViewController.h; sourceTree = "<group>"; };
+		F357F31A23B773BC0030E78E /* HCIMRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCIMRefreshViewController.m; sourceTree = "<group>"; };
+		F357F31E23B779860030E78E /* HCIMChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMChatViewController.h; sourceTree = "<group>"; };
+		F357F31F23B779860030E78E /* HCIMChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCIMChatViewController.m; sourceTree = "<group>"; };
+		F357F32123B7910C0030E78E /* HCIMConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMConfig.h; sourceTree = "<group>"; };
+		F357F32423B7A12F0030E78E /* HCIMMessageTimeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMMessageTimeCell.h; sourceTree = "<group>"; };
+		F357F32523B7A12F0030E78E /* HCIMMessageTimeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCIMMessageTimeCell.m; sourceTree = "<group>"; };
+		F357F32723B7A2850030E78E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F357F32823B7AD1D0030E78E /* HCIMMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMMessageCell.h; sourceTree = "<group>"; };
+		F357F32923B7AD1D0030E78E /* HCIMMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCIMMessageCell.m; sourceTree = "<group>"; };
+		F357F32B23B7B1550030E78E /* HCIMMessageStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMMessageStatusView.h; sourceTree = "<group>"; };
+		F357F32C23B7B1550030E78E /* HCIMMessageStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCIMMessageStatusView.m; sourceTree = "<group>"; };
+		F357F33223B85EA40030E78E /* HCIMMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMMessageModel.h; sourceTree = "<group>"; };
+		F357F33323B85EA40030E78E /* HCIMMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCIMMessageModel.m; sourceTree = "<group>"; };
+		F357F33923B8749A0030E78E /* HCIMMsgTextBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIMMsgTextBubbleView.h; sourceTree = "<group>"; };
+		F357F33A23B8749A0030E78E /* HCIMMessageBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIMMessageBubbleView.h; sourceTree = "<group>"; };
+		F357F33B23B8749A0030E78E /* HCIMMsgTextBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIMMsgTextBubbleView.m; sourceTree = "<group>"; };
+		F357F33C23B8749A0030E78E /* HCIMMessageBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIMMessageBubbleView.m; sourceTree = "<group>"; };
+		F357F33F23B874BE0030E78E /* HCIMMsgImageBubbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCIMMsgImageBubbleView.h; sourceTree = "<group>"; };
+		F357F34023B874BE0030E78E /* HCIMMsgImageBubbleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCIMMsgImageBubbleView.m; sourceTree = "<group>"; };
+		F357F34423B8DA3F0030E78E /* WeChat4149af4bd45876574cde8ccb7e9eaed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeChat4149af4bd45876574cde8ccb7e9eaed2.png; path = ../../../../WeChat4149af4bd45876574cde8ccb7e9eaed2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F357F2F823B76D2F0030E78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7122B0C36E479DE7538412 /* libPods-HCIMUIDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D0A6F829BE1FD9826F306B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFFAB18BE41DE8D8D0595113 /* Pods-HCIMUIDemo.debug.xcconfig */,
+				CA0286EBF0CD40FF8791B025 /* Pods-HCIMUIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		526BBD9BA489E27051FD026C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3250131F86F042CF0C1FD9FA /* libPods-HCIMUIDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F357F2F223B76D2F0030E78E = {
+			isa = PBXGroup;
+			children = (
+				F357F2FD23B76D2F0030E78E /* HCIMUIDemo */,
+				F357F2FC23B76D2F0030E78E /* Products */,
+				15D0A6F829BE1FD9826F306B /* Pods */,
+				526BBD9BA489E27051FD026C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F357F2FC23B76D2F0030E78E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F357F2FB23B76D2F0030E78E /* HCIMUIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F357F2FD23B76D2F0030E78E /* HCIMUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F357F34423B8DA3F0030E78E /* WeChat4149af4bd45876574cde8ccb7e9eaed2.png */,
+				F357F2FE23B76D2F0030E78E /* AppDelegate.h */,
+				F357F2FF23B76D2F0030E78E /* AppDelegate.m */,
+				F357F30123B76D2F0030E78E /* SceneDelegate.h */,
+				F357F30223B76D2F0030E78E /* SceneDelegate.m */,
+				F357F30423B76D2F0030E78E /* ViewController.h */,
+				F357F30523B76D2F0030E78E /* ViewController.m */,
+				F357F32723B7A2850030E78E /* PrefixHeader.pch */,
+				F357F31C23B778E00030E78E /* HCIMFile */,
+				F357F31823B773760030E78E /* HCIMBase */,
+				F357F31723B76ED60030E78E /* Category */,
+				F357F30723B76D2F0030E78E /* Main.storyboard */,
+				F357F30A23B76D310030E78E /* Assets.xcassets */,
+				F357F30C23B76D310030E78E /* LaunchScreen.storyboard */,
+				F357F30F23B76D310030E78E /* Info.plist */,
+				F357F31023B76D310030E78E /* main.m */,
+			);
+			path = HCIMUIDemo;
+			sourceTree = "<group>";
+		};
+		F357F31723B76ED60030E78E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F357F31823B773760030E78E /* HCIMBase */ = {
+			isa = PBXGroup;
+			children = (
+				F357F31923B773BC0030E78E /* HCIMRefreshViewController.h */,
+				F357F31A23B773BC0030E78E /* HCIMRefreshViewController.m */,
+			);
+			path = HCIMBase;
+			sourceTree = "<group>";
+		};
+		F357F31C23B778E00030E78E /* HCIMFile */ = {
+			isa = PBXGroup;
+			children = (
+				F357F33123B85E800030E78E /* Model */,
+				F357F32323B7A0A30030E78E /* View */,
+				F357F32123B7910C0030E78E /* HCIMConfig.h */,
+				F357F31D23B779280030E78E /* Controller */,
+			);
+			path = HCIMFile;
+			sourceTree = "<group>";
+		};
+		F357F31D23B779280030E78E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F357F31E23B779860030E78E /* HCIMChatViewController.h */,
+				F357F31F23B779860030E78E /* HCIMChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F357F32323B7A0A30030E78E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F357F33823B872CB0030E78E /* BubbleView */,
+				F357F32423B7A12F0030E78E /* HCIMMessageTimeCell.h */,
+				F357F32523B7A12F0030E78E /* HCIMMessageTimeCell.m */,
+				F357F32823B7AD1D0030E78E /* HCIMMessageCell.h */,
+				F357F32923B7AD1D0030E78E /* HCIMMessageCell.m */,
+				F357F32B23B7B1550030E78E /* HCIMMessageStatusView.h */,
+				F357F32C23B7B1550030E78E /* HCIMMessageStatusView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F357F33123B85E800030E78E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F357F33223B85EA40030E78E /* HCIMMessageModel.h */,
+				F357F33323B85EA40030E78E /* HCIMMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F357F33823B872CB0030E78E /* BubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				F357F33A23B8749A0030E78E /* HCIMMessageBubbleView.h */,
+				F357F33C23B8749A0030E78E /* HCIMMessageBubbleView.m */,
+				F357F33923B8749A0030E78E /* HCIMMsgTextBubbleView.h */,
+				F357F33B23B8749A0030E78E /* HCIMMsgTextBubbleView.m */,
+				F357F33F23B874BE0030E78E /* HCIMMsgImageBubbleView.h */,
+				F357F34023B874BE0030E78E /* HCIMMsgImageBubbleView.m */,
+			);
+			path = BubbleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F357F2FA23B76D2F0030E78E /* HCIMUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F357F31423B76D310030E78E /* Build configuration list for PBXNativeTarget "HCIMUIDemo" */;
+			buildPhases = (
+				F88DD238F81EEBDBC3129C5C /* [CP] Check Pods Manifest.lock */,
+				F357F2F723B76D2F0030E78E /* Sources */,
+				F357F2F823B76D2F0030E78E /* Frameworks */,
+				F357F2F923B76D2F0030E78E /* Resources */,
+				9BA1C047520FEE2FEF41C782 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCIMUIDemo;
+			productName = HCIMUIDemo;
+			productReference = F357F2FB23B76D2F0030E78E /* HCIMUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F357F2F323B76D2F0030E78E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Gpf;
+				TargetAttributes = {
+					F357F2FA23B76D2F0030E78E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F357F2F623B76D2F0030E78E /* Build configuration list for PBXProject "HCIMUIDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F357F2F223B76D2F0030E78E;
+			productRefGroup = F357F2FC23B76D2F0030E78E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F357F2FA23B76D2F0030E78E /* HCIMUIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F357F2F923B76D2F0030E78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357F30E23B76D310030E78E /* LaunchScreen.storyboard in Resources */,
+				F357F30B23B76D310030E78E /* Assets.xcassets in Resources */,
+				F357F34523B8DA3F0030E78E /* WeChat4149af4bd45876574cde8ccb7e9eaed2.png in Resources */,
+				F357F30923B76D2F0030E78E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BA1C047520FEE2FEF41C782 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HCIMUIDemo/Pods-HCIMUIDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCIMUIDemo/Pods-HCIMUIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88DD238F81EEBDBC3129C5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HCIMUIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F357F2F723B76D2F0030E78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357F30623B76D2F0030E78E /* ViewController.m in Sources */,
+				F357F32D23B7B1550030E78E /* HCIMMessageStatusView.m in Sources */,
+				F357F33423B85EA40030E78E /* HCIMMessageModel.m in Sources */,
+				F357F31B23B773BC0030E78E /* HCIMRefreshViewController.m in Sources */,
+				F357F32A23B7AD1D0030E78E /* HCIMMessageCell.m in Sources */,
+				F357F30023B76D2F0030E78E /* AppDelegate.m in Sources */,
+				F357F31123B76D310030E78E /* main.m in Sources */,
+				F357F33E23B8749A0030E78E /* HCIMMessageBubbleView.m in Sources */,
+				F357F32623B7A12F0030E78E /* HCIMMessageTimeCell.m in Sources */,
+				F357F30323B76D2F0030E78E /* SceneDelegate.m in Sources */,
+				F357F33D23B8749A0030E78E /* HCIMMsgTextBubbleView.m in Sources */,
+				F357F34123B874BE0030E78E /* HCIMMsgImageBubbleView.m in Sources */,
+				F357F32023B779860030E78E /* HCIMChatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F357F30723B76D2F0030E78E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F357F30823B76D2F0030E78E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F357F30C23B76D310030E78E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F357F30D23B76D310030E78E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F357F31223B76D310030E78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F357F31323B76D310030E78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F357F31523B76D310030E78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFFAB18BE41DE8D8D0595113 /* Pods-HCIMUIDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HCIMUIDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = HCIMUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.HCIMUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F357F31623B76D310030E78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0286EBF0CD40FF8791B025 /* Pods-HCIMUIDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HCIMUIDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = HCIMUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.HCIMUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F357F2F623B76D2F0030E78E /* Build configuration list for PBXProject "HCIMUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357F31223B76D310030E78E /* Debug */,
+				F357F31323B76D310030E78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F357F31423B76D310030E78E /* Build configuration list for PBXNativeTarget "HCIMUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357F31523B76D310030E78E /* Debug */,
+				F357F31623B76D310030E78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F357F2F323B76D2F0030E78E /* Project object */;
+}
